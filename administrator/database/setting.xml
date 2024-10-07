@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
+  <inweb>
+    <namespace>inweb</namespace>
+    <adminpath>backend</adminpath>
+    <installed>true</installed>
+    <debug>false</debug>
+    <database>
+      <adapter>pdo_mysql</adapter>
+      <params>
+        <host>127.0.0.1</host>
+        <username>uii</username>
+        <password>uiidb2020!</password>
+        <dbname>uii_law_cmk</dbname>
+      </params>
+    </database>
+    <routers/>
+  </inweb>
+</zend-config>
