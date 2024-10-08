@@ -150,7 +150,7 @@ include "../1header.php";
                       </td>
                       <td>
                       		<h6> 
-                            <?=$data['nomor_telepon']?>
+                            <?=$data['telepon']?>
                       	</h6>
                       </td>
                       <td>
@@ -162,7 +162,7 @@ include "../1header.php";
                       	<h6>
                       		<center>
                             <a href="resetpw.php?id=<?=$data['id'];?>" onclick="return confirm('Anda akan mereset password menjadi = Admin!@# ?')" class="btn btn-warning btn-sm"><i class="fas fa-history"></i> Reset Password</a>
-                            <button type="button" class="btn btn-primary btn-sm"  data-toggle="modal" data-target="#modal-edit" data-id="<?=$data['id'];?>" data-nama="<?=$data['nama'];?>" data-password="<?=$data['password'];?>" data-email="<?=$data['email'];?>" data-nomer="<?=$data['nomor_telepon'];?>" data-alamat="<?=$data['alamat'];?>">
+                            <button type="button" class="btn btn-primary btn-sm"  data-toggle="modal" data-target="#modal-edit" data-id="<?=$data['id'];?>" data-nama="<?=$data['nama'];?>" data-password="<?=$data['password'];?>" data-email="<?=$data['email'];?>" data-nomer="<?=$data['telepon'];?>" data-alamat="<?=$data['alamat'];?>">
                               <font color="white"><i class="fas fa-edit"></i>
                               </font>
                             </button>
