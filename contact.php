@@ -71,7 +71,7 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item">
-                                    <a class="nav-link" href="web.php"><br>Home<br><br></a>
+                                    <a class="nav-link" href="index.php"><br>Home<br><br></a>
                                  </li>
                                  <li class="nav-item">
                                     <a class="nav-link" href="about.php"><br>About<br><br></a>
